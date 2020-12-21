@@ -1,0 +1,7 @@
+<h1>Home Page</h1>
+
+<button type="button" class="btn btn-primary mr-2 my-2" [routerLink]="['/user/parent']" (click)="message(titleParent)">Parent</button>
+<button type="button" class="btn btn-primary mr-2 my-2" [routerLink]="['/user/student']" (click)="message(titleStudent)">Student</button>
+<button type="button" class="btn btn-primary mr-2 my-2" [routerLink]="['/user/teacher']"(click)="message(titleTeacher)">Teacher</button>
+
+<router-outlet></router-outlet>
